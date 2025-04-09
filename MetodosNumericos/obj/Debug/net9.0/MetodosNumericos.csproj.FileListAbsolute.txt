@@ -1,0 +1,15 @@
+/Users/williamhanssensanchez/Documents/Uni/MetodosNumericos/MetNum/MetodosNumericos/bin/Debug/net9.0/MetodosNumericos
+/Users/williamhanssensanchez/Documents/Uni/MetodosNumericos/MetNum/MetodosNumericos/bin/Debug/net9.0/MetodosNumericos.deps.json
+/Users/williamhanssensanchez/Documents/Uni/MetodosNumericos/MetNum/MetodosNumericos/bin/Debug/net9.0/MetodosNumericos.runtimeconfig.json
+/Users/williamhanssensanchez/Documents/Uni/MetodosNumericos/MetNum/MetodosNumericos/bin/Debug/net9.0/MetodosNumericos.dll
+/Users/williamhanssensanchez/Documents/Uni/MetodosNumericos/MetNum/MetodosNumericos/bin/Debug/net9.0/MetodosNumericos.pdb
+/Users/williamhanssensanchez/Documents/Uni/MetodosNumericos/MetNum/MetodosNumericos/obj/Debug/net9.0/MetodosNumericos.GeneratedMSBuildEditorConfig.editorconfig
+/Users/williamhanssensanchez/Documents/Uni/MetodosNumericos/MetNum/MetodosNumericos/obj/Debug/net9.0/MetodosNumericos.AssemblyInfoInputs.cache
+/Users/williamhanssensanchez/Documents/Uni/MetodosNumericos/MetNum/MetodosNumericos/obj/Debug/net9.0/MetodosNumericos.AssemblyInfo.cs
+/Users/williamhanssensanchez/Documents/Uni/MetodosNumericos/MetNum/MetodosNumericos/obj/Debug/net9.0/MetodosNumericos.csproj.CoreCompileInputs.cache
+/Users/williamhanssensanchez/Documents/Uni/MetodosNumericos/MetNum/MetodosNumericos/obj/Debug/net9.0/MetodosNumericos.sourcelink.json
+/Users/williamhanssensanchez/Documents/Uni/MetodosNumericos/MetNum/MetodosNumericos/obj/Debug/net9.0/MetodosNumericos.dll
+/Users/williamhanssensanchez/Documents/Uni/MetodosNumericos/MetNum/MetodosNumericos/obj/Debug/net9.0/refint/MetodosNumericos.dll
+/Users/williamhanssensanchez/Documents/Uni/MetodosNumericos/MetNum/MetodosNumericos/obj/Debug/net9.0/MetodosNumericos.pdb
+/Users/williamhanssensanchez/Documents/Uni/MetodosNumericos/MetNum/MetodosNumericos/obj/Debug/net9.0/MetodosNumericos.genruntimeconfig.cache
+/Users/williamhanssensanchez/Documents/Uni/MetodosNumericos/MetNum/MetodosNumericos/obj/Debug/net9.0/ref/MetodosNumericos.dll
