@@ -10,6 +10,10 @@ double b = Convert.ToDouble(System.Console.ReadLine()); // Lower limit
 System.Console.WriteLine("Enter the number of intervals (n): ");
 int n = Convert.ToInt32(System.Console.ReadLine()); // Number of intervals
 
+double result = TrapezoidalRule(a, b, n); // Call the trapezoidal rule function
+
+System.Console.WriteLine("The result of the trapezoidal rule is: " + result); // Print the result
+
 //Calculate the width of each interval
 static double TrapezoidalRule(double a, double b, int n)
 {
@@ -18,7 +22,7 @@ static double TrapezoidalRule(double a, double b, int n)
 
     for (int i = 1; i < n; i++)
     {
-        double x = a + i * n;
+        double x = a + i * h;
         sum += 2 * func(x);
     }
 
@@ -27,5 +31,5 @@ static double TrapezoidalRule(double a, double b, int n)
 
 static double func(double x)
 {
-    return Math.Pow(x, 3) + 10 * Math.Pow(x, 2) + 8 * x + 10;
+    return -Math.Pow(x, 3) + 10 * Math.Pow(x, 2) + 8 * x + 10;
 }
