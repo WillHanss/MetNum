@@ -1,35 +1,74 @@
-﻿System.Console.WriteLine("Trapezoidal Rule");
+﻿using System;
+using System.Collections.Generic;
 
-//Ask the user for the lower limit (a), upper limit (b), and number of intervals (n)
-System.Console.WriteLine("Enter the lower limit (a): "); 
-double a = Convert.ToDouble(System.Console.ReadLine()); // Upper limit
-
-System.Console.WriteLine("Enter the upper limit (b): ");
-double b = Convert.ToDouble(System.Console.ReadLine()); // Lower limit
-
-System.Console.WriteLine("Enter the number of intervals (n): ");
-int n = Convert.ToInt32(System.Console.ReadLine()); // Number of intervals
-
-double result = TrapezoidalRule(a, b, n); // Call the trapezoidal rule function
-
-System.Console.WriteLine("The result of the trapezoidal rule is: " + result); // Print the result
-
-//Calculate the width of each interval
-static double TrapezoidalRule(double a, double b, int n)
+class Program
 {
-    double h = (b - a) / n;
-    double sum = func(a) + func(b);
-
-    for (int i = 1; i < n; i++)
+    static void Main(string[] args)
     {
-        double x = a + i * h;
-        sum += 2 * func(x);
+        // Dictionary to store the projects in order
+        var projects = new Dictionary<int, string> 
+        {
+            { 1, "Bisection" },
+            { 2, "False Position" },
+            { 3, "Newton Raphson" },
+            { 4, "Secant" },
+            { 5, "Fixed Point" },
+            { 6, "Trapezoidal Rule" },
+            { 7, "Simpson's Rule" }
+        };
+        Console.WriteLine(" ========== Project Selector ========== ");
+        
+        foreach (var project in projects)
+        {
+            // Display the project number and name
+            Console.WriteLine($"{project.Key}. {project.Value}");
+        }
+
+        Console.WriteLine("========================================");  
+        Console.WriteLine("Select a project to run:");
+
+        // Read the user's choice
+        if (int.TryParse(Console.ReadLine(), out int seleccion) && projects.ContainsKey(seleccion))
+        {
+            // Execute the selected project
+            switch (seleccion)
+            {
+                case 1:
+                    Console.WriteLine("Under construction");
+                    //Bisection.start();
+                    break;
+                case 2:
+                    Console.WriteLine("Under construction");
+                    //FalsePosition.start();
+                    break;
+                case 3:
+                    Console.WriteLine("Under construction");
+                    //NewtonRaphson.start();
+                    break;
+                case 4:
+                    Console.WriteLine("Under construction");
+                    //Secant.start();
+                    break;
+                case 5:
+                    Console.WriteLine("Under construction");
+                    //FixedPoint.start();
+                    break;
+                case 6:
+                    TrapezoidalRule.start();
+                    break;
+                case 7:
+                    Console.WriteLine("Under construction");
+                    //SimpsonsRule.start();
+                    break;
+                default:
+                    Console.WriteLine("Invalid selection.");
+                    break;
+            }
+        }
+        else
+        {
+            Console.WriteLine("Invalid selection.");
+        }
+
     }
-
-    return (h / 2) * sum;
-}
-
-static double func(double x)
-{
-    return -Math.Pow(x, 3) + 10 * Math.Pow(x, 2) + 8 * x + 10;
 }
