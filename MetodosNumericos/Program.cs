@@ -12,7 +12,7 @@ class Program
             { 2, "False Position" },
             { 3, "Newton Raphson" },
             { 4, "Secant" },
-            { 5, "Fixed Point" },
+            { 5, "Rectangle Method" },
             { 6, "Trapezoidal Rule" },
             { 7, "Simpson's Rule" }
         };
@@ -42,8 +42,7 @@ class Program
                     //FalsePosition.start();
                     break;
                 case 3:
-                    Console.WriteLine("Under construction");
-                    //NewtonRaphson.start();
+                    NewtonRaphson.start();
                     break;
                 case 4:
                     Console.WriteLine("Under construction");
