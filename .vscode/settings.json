@@ -1,3 +1,4 @@
 {
-    "dotnet.defaultSolution": "MetodosNumericos.sln"
+    "dotnet.defaultSolution": "MetodosNumericos.sln",
+    "terminal.integrated.fontFamily": "'FiraCode Nerd Font'"
 }
